@@ -10,7 +10,7 @@
 
 ## 📘 Overview
 
-This project was conducted as part of a master's research collaboration with Western Digital – SanDisk Storage Malaysia Sdn. Bhd. The objective was to enhance object detection performance in printed circuit board (PCB) inspection tasks, focusing specifically on the accurate localization of integrated circuit (IC) components.
+This project was conducted as part of a master's research collaboration with PCB manufacturing company. The objective was to enhance object detection performance in printed circuit board (PCB) inspection tasks, focusing specifically on the accurate localization of integrated circuit (IC) components.
 
 By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performing systematic architecture and hyperparameter tuning, the model achieved significantly improved detection accuracy and robustness under complex visual conditions.
 
@@ -31,7 +31,7 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 - IC components vary in size, color, orientation, and texture.
 - Dataset includes both original and augmented images (flipping, hue, mosaic, etc.).
 - *Dataset provided under NDA and is not publicly shareable.*
-
+- Open-source PCB image is use for testing :  15 images were sourced from Fazle's (2021) open-source computer vision dataset hosted on Roboflow: AiBodyAndPin_001 dataset. Roboflow. https://universe.roboflow.com/fazle/aibodyandpin_001 
 ---
 
 ## ⚙️ Methodology
@@ -101,11 +101,3 @@ If you're interested in the full research paper, you can refer to:
 > Tay, S. C., et al. (2024). *Enhancing EfficientNet-YOLOv4 for Integrated Circuit Detection on Printed Circuit Boards (PCBs)*. IEEE Access, 12, 25066–25078.
 
 ---
-
-## 📬 Contact
-
-Feel free to reach out if you have questions or would like to collaborate.
-
-**Tay Shiek Chi**  
-📧 taysc96@gmail.com  
-🌐 [LinkedIn](https://www.linkedin.com/in/s-chi-tay-859b69307/)  
