@@ -19,7 +19,7 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 ## 🎯 Objectives
 
 - Integrate **EfficientNetv2-L** as the YOLOv4 backbone to improve feature extraction efficiency.
-- Optimize anchor box settings for PCB datasets with small-scale objects.
+- Test anchor box settings for PCB datasets with small-scale objects.
 - Experiment with various loss functions, including **CIoU** and **SIoU**.
 - Evaluate the impact of **Bag of Freebies (BoF)** techniques on detection performance.
 
@@ -88,16 +88,13 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 
 ## 🔭 Future Work
 
-- Real-time deployment on edge devices (e.g., Jetson Nano, Raspberry Pi with Coral TPU)
-- Comparison with Transformer-based backbones (e.g., ConvNeXt, Swin)
-- Expansion to multi-class PCB component detection tasks
-
+- Implement YOLOv7
 ---
 
 ## ✍️ Citation
 
 If you're interested in the full research paper, you can refer to:
 
-> Tay, S. C., et al. (2024). *Enhancing EfficientNet-YOLOv4 for Integrated Circuit Detection on Printed Circuit Boards (PCBs)*. IEEE Access, 12, 25066–25078.
-
+> T. S. Chi et al., "Enhancing EfficientNet-YOLOv4 for Integrated Circuit Detection on Printed Circuit Board (PCB)," in IEEE Access, vol. 12, pp. 25066-25078, 2024, doi: 10.1109/ACCESS.2024.3359639. keywords: {Inspection;YOLO;Integrated circuits;Detectors;Feature extraction;Training;Electronic components;Automated visual inspection;feature extraction network;object detection;printed circuit board (PCB)}
+https://ieeexplore.ieee.org/abstract/document/10416864
 ---
