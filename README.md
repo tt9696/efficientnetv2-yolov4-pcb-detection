@@ -41,7 +41,6 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 - **Backbone**: EfficientNetv2-L  
 - **Neck**: PANet + modified FPN  
 - **Head**: YOLOv4 detection layers  
-- Replacement of addition with concatenation in PANet (YOLOv4 modification)
 
 ### 🧪 Training Configuration
 
@@ -68,20 +67,12 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 
 ## 📊 Results Summary
 
-| Configuration       | F1-Score (%) | mAP (%) | Comment                            |  
-|---------------------|--------------|---------|-------------------------------------|  
-| L-ciou-y3           | 98.19        | 97.51   | Baseline performance                |  
-| L-ciou-pcban        | 98.23        | 97.55   | Improved anchor setting             |  
-| L-siou-pcban        | 98.30        | 97.72   | Best anchor + loss combo            |  
-| **L-ciou-y3-BoF**   | **99.22**    | ~       | **Best overall with BoF techniques**|
 
 ---
 
 ## 🧠 Key Takeaways
 
 - EfficientNetv2-L significantly improves performance over YOLOv4's default backbone in PCB inspection tasks.
-- Customized anchor boxes tailored to IC size distributions enhance localization accuracy.
-- SIoU loss function shows superior performance in this domain.
 - BoF techniques can further boost detection effectiveness without increasing model size.
 
 ---
