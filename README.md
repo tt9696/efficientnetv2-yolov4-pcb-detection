@@ -49,7 +49,7 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 - Batch size: 64  
 - Augmentations: Mosaic, random flip, hue shift  
 - Loss functions tested: CIoU, SIoU  
-- Anchor strategies: YOLOv3 default vs. anchors size listed from research paper:  (13,31, 21,42, 31,15, 34,58, 51,29, 57,98, 78,48, 150,118, 255,323)
+- Anchor strategies: YOLOv3 default vs. pcban - anchors size listed from other research paper:  (13,31, 21,42, 31,15, 34,58, 51,29, 57,98, 78,48, 150,118, 255,323)
 - BoF techniques: DropBlock, data augmentation, regularization
 
 ---
@@ -65,7 +65,7 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 | EfficientNetv2          |     M      | 
 | EfficientNetv2          |     L      | 
 
-**Experiment on Anchor Size, Loss Function and BoF Configurations **
+**Experiment on Anchor Size, Loss Function and BoF Configurations**
 | Configuration       | Backbone         | Anchors        | Loss Function  | BoF Applied  |  
 |---------------------|------------------|----------------|----------------|--------------|  
 | L-ciou-y3           | EfficientNetv2-L | YOLOv3 default | CIoU           | No           |  
