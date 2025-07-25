@@ -55,13 +55,27 @@ By replacing the original YOLOv4 backbone with **EfficientNetv2-L** and performi
 ---
 
 ## 🧬 Experimental Settings
+**Backbone Comparison**
+| Backbone Configuration  | Variation  |
+|-------------------------|------------|
+| EfficientNetv1          |     B0     | 
+| EfficientNetv1          |     B1     | 
+| EfficientNetv1          |     B7     | 
+| EfficientNetv2          |     S      |  
+| EfficientNetv2          |     M      | 
+| EfficientNetv2          |     L      | 
 
-| Configuration       | Backbone        | Anchors        | Loss Function | BoF Applied |  
+**Experiment on Anchor Size, Loss Function and BoF Configurations **
+| Configuration       | Backbone         | Anchors        | Loss Function  | BoF Applied  |  
 |---------------------|------------------|----------------|----------------|--------------|  
 | L-ciou-y3           | EfficientNetv2-L | YOLOv3 default | CIoU           | No           |  
-| L-ciou-pcban        | EfficientNetv2-L | PCB-optimized  | CIoU           | No           |  
-| L-siou-pcban        | EfficientNetv2-L | PCB-optimized  | SIoU           | No           |  
-| L-ciou-y3-BoF       | EfficientNetv2-L | YOLOv3 default | CIoU           | Yes          |  
+| L-ciou-pcban        | EfficientNetv2-L | PCB-optimized  | CIoU           | No           |
+| L-siou-y3           | EfficientNetv2-L | YOLOv3 default | SIoU           | No           | 
+| L-siou-pcban        | EfficientNetv2-L | PCB-optimized  | SIoU           | No           |
+| L-ciou-y3-BoF       | EfficientNetv2-L | YOLOv3 default | CIoU           | Yes          | 
+| L-ciou-pcban-BoF    | EfficientNetv2-L | PCB-optimized  | CIoU           | Yes          | 
+| L-siou-y3-BoF       | EfficientNetv2-L | YOLOv3 default | SIoU           | Yes          | 
+| L-siou-pcban-BoF    | EfficientNetv2-L | PCB-optimized  | SIoU           | Yes          |  
 
 ---
 
