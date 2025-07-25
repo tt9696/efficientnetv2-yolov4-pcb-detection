@@ -1,7 +1,7 @@
 # 🚀 EfficientNetv2-L + YOLOv4 for Integrated Circuit Detection on PCBs
 
 > 🔒 **Note**: This repository serves as a research project summary and does **not include source code or dataset** due to data confidentiality agreements. The baseline implementations referenced for this work are as follows:
->
+
 > - **YOLOv4 original implementation**: [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)  
 > - **EfficientNetv2 official source** (Keras team): [`keras.applications.efficientnet_v2`](https://github.com/keras-team/keras/blob/6adc2bf7d8d548f92667f8337d27be6b1674ddf5/keras/src/applications/efficientnet_v2.py)  
 > - **EfficientNet-YOLOv4 baseline** (Keras-based pipeline): [david8862/keras-YOLOv3-model-set](https://github.com/david8862/keras-YOLOv3-model-set)  
@@ -105,3 +105,9 @@ If you're interested in the full research paper, you can refer to:
 > T. S. Chi et al., "Enhancing EfficientNet-YOLOv4 for Integrated Circuit Detection on Printed Circuit Board (PCB)," in IEEE Access, vol. 12, pp. 25066-25078, 2024, doi: 10.1109/ACCESS.2024.3359639. keywords: {Inspection;YOLO;Integrated circuits;Detectors;Feature extraction;Training;Electronic components;Automated visual inspection;feature extraction network;object detection;printed circuit board (PCB)}
 https://ieeexplore.ieee.org/abstract/document/10416864
 ---
+## 📖 References
+
+> A. Bochkovskiy, C.-Y. Wang, and H.-Y. M. Liao, “Yolov4: Optimal speed and accuracy of object detection”, arXiv preprintarXiv:2004.10934, Apr. 2020, Accessed: Feb. 17, 2022. [Online]. Available: https://github.com/AlexeyAB/darknet.
+> M. Tan and Q. V. Le, “Efficientnetv2: Smaller models and faster training”, In International conference on machine learning, vol. 139, pp. 10096–10106, Apr. 2021, Accessed: Jul. 26, 2023. [Online]. Available: https://arxiv.org/abs/2104.00298v3
+> Z. Gevorgyan, “SIoU loss: More powerful learning for bounding box regression”, arXiv preprint arXiv:2205.12740, May 2022, Accessed:Aug 2023. https://arxiv.org/abs/2205.12740v1
+> J. Li, J. Gu, Z. Huang, and J. Wen, “Application research of improved YOLO V3 algorithm in PCB electronic component detection”, Applied Sciences (Switzerland), vol. 9, no. 18, p. 3750, 2019, doi: 10.3390/app9183750. 
